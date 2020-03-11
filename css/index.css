@@ -241,6 +241,19 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: base-line;
+  flex-direction: column;
+}
+.home .content-pick .destination .btn {
+  background-color: teal;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  width: 80%;
+  padding: 3% 0;
+  color: white;
+  text-align: center;
 }
 .footer {
   width: 100%;
